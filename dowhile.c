@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
     {
         printf("%d\n", index + 1);
         index = index + 1;
-    } while (index < num);
+    }  while (index < num);
 
     return 0;
 }
