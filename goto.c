@@ -18,7 +18,7 @@ int num;
         {
            printf("Enter the number. Enter 0 to exit\n");
            scanf("%d", &num);
-           if(num==0)
+           if(num == 0)
            {
                goto end;
            }
