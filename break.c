@@ -2,7 +2,7 @@
 int main(int argc, char const *argv[])
 {
     printf("Hello\n");
-    int i,age;
+    int i, age;
     for(i=0; i<10; i++){
         printf("%d\n Enter your age\n", i);
         scanf("%d", &age);
