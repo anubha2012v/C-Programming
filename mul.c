@@ -2,7 +2,7 @@
 int main(int argc, char const *argv[])
 {
     int a;
-    printf("Enter the Number: ");
+    printf("Enter the Number of which the multiplication is to be done: ");
     scanf("%d",&a);
     printf("\n  %d x 1: %d",a, a * 1);
     printf("\n  %d x 2: %d",a ,a * 2);
