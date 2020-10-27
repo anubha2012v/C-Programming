@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
         {
             continue;
         }
-        printf("\n we have not come across continue..\n");
+        printf("\n We have not come across continue..\n");
     }
     return 0;
 }
