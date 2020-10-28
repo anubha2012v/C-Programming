@@ -9,7 +9,7 @@ int factorial(int  number)
         return (number * factorial(number - 1));
     }
 }
-int main(int argc, char const *argv[])
+int main()
 {
     int num;
     printf("Enter the number you wann the factorial of \n");
