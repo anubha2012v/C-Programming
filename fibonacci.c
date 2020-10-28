@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+// Recursive process of fibonacci series will take more time, whereas Iterative process will take less time.
+
 int fib_recursive(int n)
 {
     if(n == 1 || n ==2){
