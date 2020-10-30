@@ -1,6 +1,6 @@
 // Don't use goto as it can be confusing while writing long codes.
 #include <stdio.h>
-int main(int argc, char const *argv[])
+int main()
 {
 // label:
 //     printf("We are inside label \n");
@@ -16,7 +16,7 @@ int num;
         printf("%d\n", i);
         for (int j = 0; j< 8; j++)
         {
-           printf("Enter the number. Enter 0 to exit\n");
+           printf("Enter the number. Enter 0 to exit \n");
            scanf("%d", &num);
            if(num == 0)
            {
