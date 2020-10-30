@@ -22,6 +22,7 @@ int main()
     a = 9;
     b = 87;
     c = sum(a, b);
+    
     // printstar(7);
     c = takenumber();
     // printf("The Sum is %d\n", c);
