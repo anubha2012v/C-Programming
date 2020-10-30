@@ -33,5 +33,6 @@ int main(int argc, char const *argv[])
 
     printf("The value of fibonacci number at position no %d using iterative approach is %d\n", number, fib_iterative(number));
     printf("The value of fibonacci number at position no %d using recursive approach is %d\n", number, fib_recursive(number));
+    
     return 0;
 }
