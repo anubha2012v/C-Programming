@@ -12,7 +12,7 @@ void printstar(int n)
 int takenumber()
 {
     int i;
-    printf("Enter a Number\n");
+    printf("Enter a Number: \n");
     scanf("%d", &i);
     return i;
 }
@@ -23,7 +23,9 @@ int main()
     b = 87;
     c = sum(a, b);
     // printstar(7);
+    
     c = takenumber();
+    
     // printf("The Sum is %d\n", c);
     printf("The Number Entered is %d \n", c);
     return 0;
