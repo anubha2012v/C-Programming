@@ -2,11 +2,11 @@
 int main()
 {
     int i,j, a, b;
-    printf("Press 0 to Print Triangular star pattern and 1 for reverse star pattern:\n");
+    printf("Press 0 to Print Triangular star pattern and 1 for reverse star pattern: \n");
     scanf("%d",&a);
 
-    printf("Enter the number of rows of the pattern:");
-    scanf("%d",&b);
+    printf("Enter the number of rows of the pattern: ");
+    scanf("%d", &b);
     
 
     if (a == 0)
