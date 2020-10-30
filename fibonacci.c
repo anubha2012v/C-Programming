@@ -28,10 +28,10 @@ int fib_iterative(int n)
 int main(int argc, char const *argv[])
 {
     int number;
-    printf("Enter a number to find the fibonacci series\n");
+    printf("Enter a number to find the fibonacci series: \n");
     scanf("%d", &number);
 
     printf("The value of fibonacci number at position no %d using iterative approach is %d\n", number, fib_iterative(number));
-    printf("The value of fibonacci number at position no %d using recursive approach is %d\n",number, fib_recursive(number));
+    printf("The value of fibonacci number at position no %d using recursive approach is %d\n", number, fib_recursive(number));
     return 0;
 }
