@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 // Recursive process of fibonacci series will take more time, whereas Iterative process will take less time.
-
 int fib_recursive(int n)
 {
     if(n == 1 || n ==2){
@@ -32,7 +31,7 @@ int main(int argc, char const *argv[])
     printf("Enter a number to find the fibonacci series\n");
     scanf("%d", &number);
 
-    printf("The value of fibonacci number at position no %d using iterative approach is %d\n",number, fib_iterative(number));
+    printf("The value of fibonacci number at position no %d using iterative approach is %d\n", number, fib_iterative(number));
     printf("The value of fibonacci number at position no %d using recursive approach is %d\n",number, fib_recursive(number));
     return 0;
 }
