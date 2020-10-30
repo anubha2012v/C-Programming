@@ -2,8 +2,8 @@
 int main(int argc, char const *argv[])
 {
     int a;
-    printf("Enter the Number: ");
-    scanf("%d",&a);
+    printf("Enter the Number: \n");
+    scanf("%d", &a);
 
    printf("Multiplication table of %d is as follows: \n", a);
    for (int i = 1; i < 11 ; i++)
