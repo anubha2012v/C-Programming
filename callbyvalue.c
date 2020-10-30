@@ -24,7 +24,9 @@ int main()
     c = sum(a, b);
     
     // printstar(7);
+    
     c = takenumber();
+    
     // printf("The Sum is %d\n", c);
     
     printf("The Number Entered is %d \n", c);
